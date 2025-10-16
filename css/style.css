@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* SEÇÃO do card */
+.card-section{
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-section img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-container h1{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0;
+    color: #1c1e21;
+}
+
+.card-container .camp{
+    width: 95%;
+    height: 55px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #f4f4f4;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card-container .camp-btn{
+    background-color: #1977f2;
+    border-color: #1977f2;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-container .camp-btn:hover{
+    background-color: #1165d3;
+    border-color: #0a56b9;
+}
+
+.card-container a{
+    text-decoration: none;
+    color: #1977f2;
+    padding: 20px 0;
+}
+
+.card-container a:hover{
+    text-decoration: underline;
+}
+
+.card-void{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.card-void hr{
+    margin: 0 10px;
+    color: #606770;
+    font-size: 12px;
+    width: 40%;
+}
+
+.card-void p{
+    margin: 0 10px;
+    color: #606770;
+    font-size: 12px;
+}
+
+.card-btn-criar-conta{
+    background-color: #03c803;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #03c803;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-btn-criar-conta:hover{
+    background-color: #00a600;
+    border-color: #00a600;
+}
